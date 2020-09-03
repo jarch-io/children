@@ -1,0 +1,21 @@
+{
+    "name": "jarch/children",
+    "description": "N/A",
+    "type": "package",
+    "version": "1.0.1",
+    "minimum-stability": "stable",
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "secure-http": false
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "scripts" : {
+        "post-package-install" : [
+            "Jarch\\Baby\\Autorun::postPackageInstall"
+        ]
+    }
+}
