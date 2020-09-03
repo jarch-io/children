@@ -13,9 +13,7 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
-    "scripts" : {
-        "post-package-install" : [
-            "Jarch\\Baby\\Autorun::postPackageInstall"
-        ]
+    "require": {
+        "slowprog/composer-copy-file": "^0.3.3"
     }
 }
