@@ -23,6 +23,12 @@
         ],
         "post-update-cmd": [
             "SlowProg\\CopyFile\\ScriptHandler::copy"
+        ],
+        "post-package-install": [
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
+        ],
+        "post-package-update": [
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
         ]
     },
     "extra": {
