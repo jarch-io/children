@@ -27,7 +27,7 @@
     },
     "extra": {
         "copy-file": {
-            "vendor/jarch/children/pub": "pub"
+            "vendor/jarch/children/pub/": "pub/"
         }
     }
 }
