@@ -16,5 +16,18 @@
     "require": {
         "slowprog/composer-copy-file": "^0.3.3",
         "twbs/bootstrap": "^4.5"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
+        ],
+        "post-update-cmd": [
+            "SlowProg\\CopyFile\\ScriptHandler::copy"
+        ]
+    },
+    "extra": {
+        "copy-file": {
+            "vendor/jarch/children/pub": "pub"
+        }
     }
 }
